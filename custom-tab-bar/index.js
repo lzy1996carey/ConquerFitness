@@ -4,7 +4,7 @@ Component({
     color: "#7A7E83",
     selectedColor: "#3cc51f",
     list: [{
-      pagePath: "../../pages/index/index",
+      pagePath: "../../pages/Main/Main",
       iconPath: "/image/icon_component.png",
       selectedIconPath: "/image/icon_component_HL.png",
       text: "首页"
@@ -19,6 +19,12 @@ Component({
       iconPath: "/image/icon_tubiao.png",
       selectedIconPath: "/image/icon_tubiao_selected.png",
       text: "统计"
+    },
+    {
+      pagePath: "../../pages/Personal/Personal",
+      iconPath: "/image/icon_personal.png",
+      selectedIconPath: "/image/icon_personal_selected.png",
+      text: "我的"
     }
   ]
   },

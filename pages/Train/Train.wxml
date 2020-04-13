@@ -1,3 +1,30 @@
+<!-- 选择计划 -->
+<view class="plan-group">
+  <view class="add-group">
+    <view class="lable-plan">选择计划</view>
+    <view class="lable-moregroup">
+      <navigator class="addmoreplan">
+        <image class="addmoreplan" src="../../image/tianjia.png"></image>
+      </navigator>
+      <navigator class="planmenu">
+        <image class="planmenu" src="../../image/caidan1.png"></image>
+      </navigator>
+    </view>
+  </view>
+  <view class="choose-group">
+    <navigator class="choose-navigator">
+      <view class="leftfig">
+        <image class="thumbnail" src="../../image/quick1.jpg"></image>
+      </view>
+      <view class="righttext">
+        <view class="plantitle">我的锻炼计划</view>
+        <view class="plancount">最近有1个计划</view>
+      </view>
+    </navigator>
+  </view>
+
+</view>
+
 <!-- 导航栏 -->
 <van-nav-bar title="选择部位"/>
 <view class="container">

@@ -1,1 +1,72 @@
 /* pages/Train/Train.wxss */
+.page{
+  background-color: #E8F4FB;
+}
+
+/* 选择计划导航栏 */
+.plan-group{
+  margin-top: 20rpx;
+  width: 100%;
+  height: 250rpx;
+}
+
+.plan-group .add-group{
+  padding: 10rpx;
+  width: 100%;
+  height: 40rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-group .lable-plan{
+  margin-left: 20rpx;
+  font-size: 35rpx;
+}
+
+.add-group .lable-moregroup{
+  display: flex;
+  margin-right: 20rpx;
+}
+
+.lable-moregroup .addmoreplan{
+  margin-top: 2rpx;
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 20rpx;
+}
+.lable-moregroup .planmenu{
+  margin-top: 1rpx;
+  width: 37rpx;
+  height: 37rpx;
+}
+
+/* 选择计划内容部分 */
+.plan-group .choose-group{
+  width: 100%;
+  margin-top: 20rpx;
+  display: flex;
+}
+.choose-group .choose-navigator{
+  width: 100%;
+  display: flex;
+}
+.choose-navigator .leftfig{
+  margin: 20rpx;
+  width: 160rpx;
+  height: 100rpx;
+  display: flex;
+}
+.leftfig .thumbnail{
+  widows: 100%;
+  height: 100%;
+  border-radius: 30rpx;
+}
+.choose-navigator .righttext{
+  margin: 20rpx;
+}
+
+.righttext .plancount{
+  margin-top: 10rpx;
+  font-size: 20rpx;
+  color: gray;
+}
